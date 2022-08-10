@@ -60,5 +60,40 @@ h1 {
   background-color: purple;
 }
 
+**The browser should display a desktop version of the site when the width of the browser window is 992px and above.**
+@media (min-width: 992%) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+**Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively.**
+@media (min-width: 768px) and 9max-width: 991px) [
+  .col-md-6,.col-md-12 [
+  float: left;
+}
+.col-md-6 {
+  width: 50%;
+}
+.col-md-12 {
+  margin-left: -10px;
+  width: 100%;
+}
+.name3 {
+  margin-right: 65px;
+  width: 100px;
+}
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
+}
 
 
