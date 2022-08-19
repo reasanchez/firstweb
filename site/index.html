@@ -97,10 +97,39 @@ h1 {
     min-width: 0px;
       max-width: 767px;
   }
-
-@media only screen and (max-width 992px) {
-	body{
-		background-color: #00fffa;
+/*large browser screen*/
+@media (min-width 992px) {
+	body1{
+		float: left;
+		width: 33.33%;
+	}
+	}
+/*medium browser screen*/
+@media (min-width:768px) and (max-width: 991px) {
+	.body2,.body3 {
+		float: left;
+	}
+	.body2 {
+		width 50%;
+	}
+	.body3 {
+		margin-left: -10px;
+		width: 100px;
+	}
+	.name3{
+		margin-right:65px;
+		width:100px;
+	}
+	}
+	
+@media (min-width:0px) and (max-width:767px) {
+	body4 {
+		float: ;eft;
+		width:100%;
+	}
+	.menu-name{
+		margin-right: 30px;
+	}
 	}
 	
 
@@ -109,7 +138,7 @@ h1 {
 	
 <body>
 	<h1>Our Menu</h1>
-	<div class="goodform" style="display: flex; justify-content: space-between; flex-basis: auto">
+	<div class="goodform;body1;body2;body3;body4" style="display: flex; justify-content: space-between; flex-basis: auto">
 			<p class="menu-name; name1">Chicken</p>
 			<p class="menu-content">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
 				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
