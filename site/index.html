@@ -1,201 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/styles.css">
-	<title>AndreaMod3</title>
+	<link rel="stylesheet" href="firstweb/styles.css">
+	<title>AndreaMod</title>
 	</head>
 	
-<style>
-
-body {
-	margin:0;
-	padding:0;
-	}
-	
-div {
-	margin-top: 20px;
-	margin-bottom: 400px;
-	margin-right: 50px;
-	margin-left: 50px;
-	
-	}
-
-h1 {
-  margin-botom: 15px;
-  text-align: center;
-  color: black;
-  font-size: 50px;
-	background-color: pink;
-}
-
-.menu-name {
-  	overflow: none;
-  	text-align: center;
-  	border: 4px solid black;
-  	/*width: 33%;
-  	height: 50%;
-  	padding: 5%;*/
-	width: 100px;
-  	height: 40px;
-  	padding: 5px;
-  	float: right;
-  	/*margin: 0;*/
-	margin-right: 36px;
-	margin-top:0px;
-  	font-weight: bold;
-  	/*position: absolute;*/
-	position: relative;
-	/*top: 0;
-	bottom: 0;*/
-}
-
-.menu-content {
-  	/*color: black;
-	font-size: 25px;
- 	background-color: gray;
-	padding: 5%;
-	border: 5% solid black;
-	height: 20%;
-	*/
- 	background-color: gray;
-	border: 5px solid black;
-   	width: 90%;
-    	height: auto;
-   	margin: 2.5%;
-    	color: black;
-    	font-size: 25px;
-    	padding: 2%;
-    	padding-top: 55px;
-}
-p{
-	display: block;
-    	margin-block-start: 1em;
-    	margin-block-end: 1em;
-    	margin-inline-start: 0px;
-    	margin-inline-end: 0px;
-	}
-
-.name1 {
-	color: black;
-	background-color: pink;
-	margin-right: 65px;
-	margin-left: 65px;
-	height: 50px;
-	width: 100px;
-	font-size: 25px;
-	border: 5px solid black;
-	padding: 5px;
-	float: right;
-	
-	
-}
-
-.name2 {
-	color: black;
-	background-color: #EE5555;
-	margin-right: 65px;
-	margin-left: 65px;
-	height: 50px;
-	width: 100px;
-	font-size: 25px;
-	border: 5px solid black;
-	padding: 5px;
-	float: right;
-	
-}
-
-.name3 {
-	color: black;
-	background-color: #BA75D6;
-	margin-right: 65px;
-	margin-left: 65px;
-	height: 50px;
-	width: 100px;
-	font-size: 25px;
-	border: 5px solid black;
-	padding: 5px;
-	float: right;
-	
-}
-
-.goodform {
-    float: left;
-    width: 100%;
-    min-width: 0px;
-      max-width: 767px;
-  }
-/*large browser screen*/
-@media (min-width 992px) {
-	body1{
-		float: left;
-		width: 33.33%;
-	}
-	}
-/*medium browser screen*/
-@media (min-width:768px) and (max-width: 991px) {
-	.body2,.body3 {
-		float: left;
-		width: 50%;
-	}
-	.body2 {
-		width: 50%;
-	}
-	.body3 {
-		margin-left: -10px;
-		width: 100px;
-	}
-	.name3{
-		margin-right:65px;
-		width:100px;
-	}
-	}
-	
-@media (min-width:0px) and (max-width:767px) {
-	body4 {
-		float: left;
-		width: 100%;
-	}
-	.menu-name{
-		margin-right: 30px;
-	}
-	}
-
-
-
-
-</style>
-	
 <body>
-	<h1>Our Menu</h1>
-	<div class="goodform" style="display: flex; justify-content: space-between; flex-basis: auto">
-			<div class="body1;body2;body4">
-				<p class="menu-name; name1">Chicken</p>
-				<p class="menu-content">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-		</div>
-		
-			<div class="body1;body2;body4">
-				<p class="menu-name; name2">Beef</p>
-				<p class="menu-content">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-		</div>
-		
-			<div class="body1;body3;body4">
-				<p class="menu-name; name3">Sushi</p>
-				<p class="menu-content">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-				ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-		</div>
-		
-	</div>
-
-</body>
+	<section class="container">
+        <div class="boxes-title">
+            <h1 class="title">Our Menu</h1>
+        </div>
+        <div class="flex-box">
+            <div class="box">
+                <div id="one" class="box-2">Chicken</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sequi voluptatum, molestias sit sed
+                    maiores,
+                    sunt aspernatur eveniet enim eius hic similique quo obcaecati voluptate accusamus commodi odio
+                    impedit,
+                    magnam assumenda quam. Quam aliquam laborum reprehenderit ipsa error quod doloremque, similique
+                    asperiores dolor mollitia! Soluta eum doloribus maxime delectus quia culpa, expedita ad veniam quos
+                    atque rem quam accusantium voluptas?</p>
+            </div>
+            <div class="box">
+                <div id="two" class="box-2">Beef</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laborum quas nesciunt natus vitae
+                    facere delectus minima accusamus voluptatum eaque quidem a, eum necessitatibus quis cupiditate,
+                    ratione
+                    porro excepturi, placeat doloribus voluptas cum laudantium illum nostrum! Totam magnam impedit
+                    perferendis, nulla ut laborum quasi perspiciatis iure ducimus eaque, facilis, molestiae sequi ipsum.
+                    Pariatur dolores sint, est eius molestias officia quo?</p>
+            </div>
+            <div class="box">
+                <div id="three" class="box-2">Sushi</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae fugit aspernatur magnam a
+                    distinctio consequatur eum inventore alias quasi voluptate veniam delectus quos, corrupti
+                    reiciendis,
+                    explicabo cupiditate nesciunt fugiat repellendus ad at dolorem vero sit. Perferendis beatae eius
+                    iusto,
+                    in, facilis temporibus maiores facere commodi culpa consequatur ipsa dicta, ea repellendus deleniti
+                    id
+                    qui expedita illo fuga asperiores quidem!</p>
+            </div>
+        </div>
+    </section>	
+  </body>
 </html>
